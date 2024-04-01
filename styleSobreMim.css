@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px pink;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: pink;
+    text-align: center;
+    font-size: 28px; /* Aumenta o tamanho da fonte */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Fonte alternativa */
+    text-shadow: 1px 1px 2px pink; /* Adiciona sombra ao texto */
+    letter-spacing: 1px; /* Aumenta o espaçamento entre as letras */
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center; /* Centraliza o texto */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista */
+}
+
+ul li {
+    margin-bottom: 8px; /* Espaçamento entre os itens da lista */
+    color: #333; /* Cor do texto dos itens da lista */
+}
+
+footer {
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botao-voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(178, 29, 195);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: purple;
+    text-decoration: none;
+}
